@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/Estandarte_fuzileiros_navais.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    height: 100vh;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.box{
+    font-size: 1.8rem;
+}
+.box ul{
+    height: 50px;
+    background-color: rgb(105, 36, 36);
+    opacity: 0.6;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: -9px;
+}
+.box a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.menu{
+    float: right;
+    width: auto;
+}
+.menu li{
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: -7px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.menu li:hover{
+    transition: 0.7s all;
+    background-color:rgb(255, 255, 255);
+    color:black
+}
+.resultado{
+    background-image: url("../imagem/cfn-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    padding: 200px;
+    margin-left: 70%;
+    
+
+}
+.lottus{
+    font-size: 2.0rem;
+    color: black;
+    display: inline;
+    text-align: center;
+    padding: 1.2rem;
+   
+}
+.titulo-main{
+    font-size:2.0rem ;
+    text-align: center;
+    
+}
